@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+padding: 20px;
+background: #10121b;
+color: white;
+font-family: Arial, sans-serif;
+}
+
+.app {
+max-width: 500px;
+margin: auto;
+}
+
+h1 {
+text-align: center;
+color: #a78bfa;
+}
+
+.subtitle {
+text-align: center;
+color: #b7b7c9;
+}
+
+.camera-box {
+position: relative;
+min-height: 220px;
+margin: 24px 0;
+overflow: hidden;
+border: 2px solid #8b5cf6;
+border-radius: 18px;
+background: #202231;
+}
+
+video {
+display: block;
+width: 100%;
+min-height: 220px;
+object-fit: cover;
+}
+
+#placeholder {
+position: absolute;
+top: 40%;
+width: 100%;
+text-align: center;
+color: #c4b5fd;
+pointer-events: none;
+}
+
+.buttons {
+display: grid;
+gap: 12px;
+}
+
+button {
+padding: 15px;
+border: none;
+border-radius: 12px;
+background: #7c3aed;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:disabled {
+opacity: 0.4;
+cursor: not-allowed;
+}
+
+#status {
+text-align: center;
+color: #c4b5fd;
+margin: 20px 0;
+}
+
+.result {
+padding: 16px;
+border-radius: 16px;
+background: #202231;
+}
+
+.result h2 {
+font-size: 19px;
+}
+
+#answer {
+line-height: 1.6;
+overflow-wrap: anywhere;
+}
+
+.note {
+color: #aaaabd;
+font-size: 12px;
+text-align: center;
+margin-top: 20px;
+}

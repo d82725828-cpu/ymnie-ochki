@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Glasses AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>👓 Smart Glasses AI</h1>
+    <p class="subtitle">Твой умный помощник</p><div class="camera-box">
+  <video id="camera" autoplay playsinline></video>
+  <canvas id="canvas" hidden></canvas>
+  <p id="placeholder">Камера пока выключена</p>
+</div>
+
+<div class="buttons">
+  <button id="start">📷 Включить камеру</button>
+  <button id="capture" disabled>📸 Сделать фото</button>
+  <button id="stop" disabled>⏹️ Остановить камеру</button>
+</div>
+
+<p id="status">Готов к запуску</p>
+
+<section class="result">
+  <h2>🤖 Комментарий ИИ</h2>
+  <p id="answer">Сначала включи камеру и сделай фотографию.</p>
+  <button id="speak" disabled>🔊 Прослушать</button>
+</section>
+
+<p class="note">
+  Прототип: фотография пока не отправляется в ИИ автоматически.
+</p>
+
+  </main> 
+   <script src="app.js">
+    
+   </script></body>
+</html>
